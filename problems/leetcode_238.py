@@ -1,3 +1,5 @@
+# product of array except self - medium
+
 class Solution:
     def productExceptSelf(self, nums):
         res = [1] * len(nums)
