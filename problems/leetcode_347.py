@@ -15,7 +15,7 @@
 from typing import List
 
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums, k) :
         # Step 1: Count the frequency of each number in nums
         count = {}
         for n in nums:
