@@ -1,5 +1,6 @@
 # add two numbers
 
+# solution using hashing
 class Solution:
     def twoSum(self, nums , target):
         prevMap = {} # val : index
